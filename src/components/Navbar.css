@@ -1,0 +1,37 @@
+.navBar{
+    background-color: rgba(0, 0, 0, 0.459);
+    width: auto;
+    height: 130px
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.navbar__items{
+    display: flex;
+    font-size: 2rem;
+    gap: 2rem;
+    margin-right: 1.8rem;
+    filter: drop-shadow(0px 2px 1px rgb(255, 0, 191));
+    
+}
+
+.navbar__items a{
+    color: white;
+    filter: drop-shadow(0px -2px 1px rgb(0, 0, 0));
+    transition: 1s;
+}
+
+.navbar__items a:hover{
+    color: yellow;
+    transition: 1s;
+}
