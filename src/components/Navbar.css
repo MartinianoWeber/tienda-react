@@ -1,37 +1,113 @@
-.navBar{
-    background-color: rgba(0, 0, 0, 0.459);
+.headerProductos {
+    background-image: url(../assets/headerProductos.png);
     width: auto;
-    height: 130px
-}
-
-.navBar{
+    height: 350px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .productos__logo {
     display: flex;
+  }
+  .productos__logo img {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .productos__form {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-}
-
-.nav__img{
-    width: 150px;
-    height: 150px;
-}
-
-
-.navbar__items{
+    margin-top: -8rem;
+  }
+  .productos__form form span {
     display: flex;
-    font-size: 2rem;
-    gap: 2rem;
-    margin-right: 1.8rem;
-    filter: drop-shadow(0px 2px 1px rgb(255, 0, 191));
-    
-}
-
-.navbar__items a{
-    color: white;
-    filter: drop-shadow(0px -2px 1px rgb(0, 0, 0));
+  }
+  .productos__form form span input {
+    width: 520px;
+    padding: 2rem;
+    border-radius: 5rem;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+  }
+  .productos__form form span img {
+    width: 40px;
+    height: 40px;
+    margin-left: -6rem;
+    margin-top: 1rem;
+  }
+  
+  .navbarproductos {
+    background-color: #000000;
+    width: auto;
+    height: 7rem;
+  }
+  
+  .navbar__flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+  }
+  .navbar__flex a {
+    margin-top: 1.5rem;
+    font-size: 2.5rem;
+    color: #FFFFFF;
     transition: 1s;
-}
-
-.navbar__items a:hover{
+  }
+  .navbar__flex a:hover {
+    transition: 1s;
     color: yellow;
-    transition: 1s;
-}
+  }
+  
+  .productos__carritos {
+    display: flex;
+    margin-top: -3.5rem;
+    margin-right: 13.5rem;
+    justify-content: end;
+  }
+  .productos__carritos img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .links__productos {
+    display: flex;
+    font-size: 1.3rem;
+    width: 700px;
+    margin: auto;
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  .links__productos a {
+    background-color: #620871;
+    padding: 1rem 2rem;
+    color: #FFFFFF;
+    border-radius: 2rem;
+  }
+  
+  .background__carrito {
+    background-color: rgba(0, 0, 0, 0.781);
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    margin-top: 5.5rem;
+    border-radius: 0.8rem;
+    box-shadow: 0px 15px 100px 39px rgba(30, 30, 60, 0.51), 0px 15px 100px 1px #850691;
+  }
+  .background__carrito h2 {
+    font-size: 3.5rem;
+    color: white;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+  .background__carrito p {
+    margin: auto;
+  }
+  .background__carrito a {
+    margin: auto;
+  }
+  

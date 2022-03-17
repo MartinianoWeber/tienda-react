@@ -50,3 +50,9 @@ textarea {
   width: 100%;
   overflow:hidden;
 }
+
+.encabezado{
+  color:black;
+  text-align: center;
+  font-size:3rem;
+}
