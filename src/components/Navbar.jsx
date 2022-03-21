@@ -14,7 +14,13 @@ function ModuloNav(){
         </div>
         <div className="productos__form">
             <form>
-               <span><input type="text" name="" id="buscadorDeproductos" placeholder="Busca tu producto ideal"></input><a className="lupa__busqueda" id="ingresarBusqueda" href=""><img  src={search}></img></a> </span> 
+               <span>
+                    <input type="text" 
+                        placeholder="Busca tu producto ideal"></input>
+                    <a className="lupa__busqueda">
+                        <img  src={search}></img>
+                    </a> 
+                </span> 
             </form>
         </div>
     </header>

@@ -1,10 +1,11 @@
 import React from 'react';
 
-
-const ItemList = ({encabezado}) => {
+const ItemList = (productos) => {
+    console.log(productos)
     return ( 
         <section>
-            <h2 className="encabezado">{encabezado}</h2>
+            <p></p>
+           
         </section>
         
      );
