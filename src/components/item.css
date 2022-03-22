@@ -1,0 +1,79 @@
+.productos {
+    display: flex;
+    margin: auto;
+  }
+  
+  .producto__imagen {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+  }
+  
+  .producto__background {
+    background-image: url(../assets/recuadrotienda.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 320px;
+    height: 150px;
+  }
+  
+  .productos__backgroundB {
+    display: flex;
+    justify-content: center;
+    width: 310px;
+    height: 104px;
+    margin: auto;
+    margin-top: 1rem;
+  }
+  
+  .texto__producto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: -12rem;
+  }
+  .texto__producto h4 {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+  }
+  .texto__producto p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .texto__producto a {
+    font-size: 1.1rem;
+    color: yellow;
+  }
+  
+  .linea {
+    border: solid 0.1rem #EB0000;
+    width: 150px;
+    margin: auto;
+  }
+  
+  .boton__añadir {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  .boton__añadir a {
+    color: #FFFFFF;
+    background-color: #000000;
+    padding: 0.4rem;
+    margin-top: -0.6rem;
+    width: 200px;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    text-align: center;
+    transition: 1s;
+  }
+
+
+  .boton__añadir a:hover{
+      color: yellow;
+      transition: 1s;
+  }

@@ -1,0 +1,126 @@
+/* From cssbuttons.io by @gagan-gv */
+.spinner {
+    height: 50px;
+    width: max-content;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: monospace;
+    letter-spacing: 1em;
+    color: #000000;
+    filter: drop-shadow(0 0 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-top:-10rem;
+   }
+   
+   .spinner span {
+    animation: loading6454 1.75s ease infinite;
+   }
+   
+   .spinner span:nth-child(2) {
+    animation-delay: 0.25s;
+   }
+   
+   .spinner span:nth-child(3) {
+    animation-delay: 0.5s;
+   }
+   
+   .spinner span:nth-child(4) {
+    animation-delay: 0.75s;
+   }
+   
+   .spinner span:nth-child(5) {
+    animation-delay: 1s;
+   }
+   
+   .spinner span:nth-child(6) {
+    animation-delay: 1.25s;
+   }
+   
+   .spinner span:nth-child(7) {
+    animation-delay: 1.5s;
+   }
+   
+   @keyframes loading6454 {
+    0%, 100% {
+     transform: translateY(0);
+    }
+   
+   
+    50% {
+     transform: translateY(-10px);
+    }
+   }
+
+
+   .seccion__productos {
+    position: relative;
+  }
+  .productos__grid {
+    display: grid;
+    grid-template-columns: repeat(1, 300px 1fr);}
+
+  .buscador__flex {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  .buscador__flex .buscadores select {
+    width: 200px;
+    text-align: center;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    outline: none;
+    color: black;
+    border: solid 1px #bd36bd;
+  }
+  
+  .productos__cardgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    row-gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .productos__filtroaside {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  
+  details > summary:first-of-type {
+    list-style-type: none;
+  }
+  
+  .producto__flecha {
+    display: flex;
+    justify-content: end;
+    margin-top: -2.5rem;
+  }
+  .producto__flecha img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .productos__filtrado {
+    border-right: solid 1px black;
+  }
+  .productos__filtrado summary {
+    color: #000000;
+    font-size: 2rem;
+    margin-bottom: 2.2rem;
+  }
+  
+  .productos__a {
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+  }
+  
+  summary:active .producto__flecha img {
+    transform: rotate(90deg);
+  }

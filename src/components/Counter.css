@@ -1,0 +1,27 @@
+.contenedorBtn{
+    color: rgb(255, 255, 255);
+    display: flex;
+    gap: 2rem;
+    margin:auto;
+    margin-top: 1rem;
+    background-color: black;
+    width: 90px;
+    border-radius: 2rem;
+}
+
+.contenedorBtn button:nth-child(1){
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    font-size:2rem;
+    border:none;
+    color: white;
+    background-color: black;
+}
+.contenedorBtn button:nth-child(3){
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    font-size:2rem;
+    border:none;
+    color: white;
+    background-color: black;
+}
